@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Fit, Video Compressor</title>
+<style>
+  :root { --ink:#16181d; --soft:#52596b; --line:#dfe3e8; --accent:#1f6feb; --bg:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#eceef2; --soft:#a8b0c0; --line:#333845; --accent:#4d8ef7; --bg:#15171c; }
+  }
+  * { box-sizing:border-box; }
+  body {
+    margin:0; padding:48px 20px 80px; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, system-ui, sans-serif;
+  }
+  main { max-width:68ch; margin:0 auto; }
+  h1 { font-size:30px; letter-spacing:-0.025em; line-height:1.2; margin:0 0 6px; }
+  h2 { font-size:19px; letter-spacing:-0.012em; margin:38px 0 10px; }
+  p { margin:0 0 14px; }
+  ul { margin:0 0 16px; padding-left:22px; }
+  li { margin:5px 0; }
+  code {
+    font:13.5px ui-monospace, SFMono-Regular, Menlo, monospace;
+    background:color-mix(in srgb, var(--accent) 10%, transparent);
+    padding:1px 5px; border-radius:5px;
+  }
+  strong { font-weight:650; }
+  a { color:var(--accent); }
+  hr { border:0; border-top:1px solid var(--line); margin:34px 0; }
+  .lede { color:var(--soft); font-size:14px; margin-bottom:30px; }
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy Policy — Fit, Video Compressor</h1>
+<p><strong>Last updated: 7 October 2026</strong></p>
+<h2>The short version</h2>
+<p>Fit does not collect, transmit, store or sell any data. Your videos never leave your computer. There are no accounts, no analytics, no tracking and no servers.</p>
+<h2>What the extension does with your video</h2>
+<p>When you choose a video, it is read into your browser's memory and compressed there, using your computer's own video encoder. The compressed file is written back only when you click <strong>Save file</strong>, to the download location you choose.</p>
+<p>Nothing is uploaded. The extension makes no network requests at all: the compression engine is bundled inside the extension rather than downloaded, so it works with no internet connection.</p>
+<h2>Data we collect</h2>
+<p>None.</p>
+<p>Specifically, Fit does <strong>not</strong> collect or transmit:</p>
+<ul><li>Your videos, or any part of them</li><li>Filenames, file sizes, or metadata</li><li>Personally identifiable information</li><li>Health, financial, authentication or location information</li><li>Personal communications</li><li>Web browsing history or activity</li><li>Analytics, telemetry, crash reports, or usage statistics</li><li>Advertising or marketing identifiers</li></ul>
+<p>Because nothing is collected, nothing is sold, shared or transferred to any third party, and nothing is used for any purpose unrelated to the extension's single purpose.</p>
+<h2>Permissions, and why each is needed</h2>
+<ul><li><strong><code>storage</code></strong> — reserved for remembering your chosen size preset between sessions. Any value stored stays on your own computer in Chrome's local extension storage; it is never transmitted.</li><li><strong>Host access to <code>mail.google.com</code> and <code>web.whatsapp.com</code></strong> — a content script watches those two pages for a "file is too large" message so it can offer to compress the video for you. It only reads text already visible on the page in order to detect that message. It does not read your emails, messages, contacts, attachments or credentials, and it sends nothing anywhere.</li></ul>
+<p>The extension requests no other permissions.</p>
+<h2>Local storage on your device</h2>
+<p>Your chosen preferences may be saved on your own device so the extension remembers them. You can clear this at any time by removing the extension.</p>
+<h2>Children</h2>
+<p>Fit is a general-purpose utility and is not directed at children. It collects no data from anyone, including children.</p>
+<h2>Changes to this policy</h2>
+<p>If this policy ever changes, the updated version will be published at this same address with a new "last updated" date. Because the extension collects no data, any change would be a clarification rather than a change in data handling.</p>
+<h2>Contact</h2>
+<p>Questions about this policy or the extension: <strong>jcastro2305@gmail.com</strong></p>
+</main>
+</body>
+</html>
